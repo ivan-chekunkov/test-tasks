@@ -1,6 +1,6 @@
 def print_a_large_number(array):
-    def comparator(num_2, num_1):
-        return int(num_1 + num_2) < int(num_2 + num_1)
+    def comparator(num_1, num_2):
+        return int(num_2 + num_1) < int(num_1 + num_2)
 
     for index_item_to_insert in range(1, len(array)):
         item_to_insert = array[index_item_to_insert]
