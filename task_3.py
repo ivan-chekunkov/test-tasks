@@ -1,5 +1,5 @@
-def print_a_large_number(array):
-    def comparator(num_1, num_2):
+def print_a_large_number(array: list[str]) -> None:
+    def comparator(num_1: str, num_2: str) -> bool:
         return int(num_2 + num_1) < int(num_1 + num_2)
 
     for index_item_to_insert in range(1, len(array)):
