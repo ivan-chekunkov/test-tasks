@@ -1,34 +1,3 @@
-CREATE TABLE transfers (
-	"from" INTEGER,
-	"to" INTEGER,
-	amount INTEGER,
-	tdate DATE
-);
-INSERT
-	INTO
-	transfers ("from",
-	"to",
-	amount,
-	tdate)
-VALUES ('1',
-'2',
-'500',
-'23.02.2023'),
-('2',
-'3',
-'300',
-'01.03.2023'),
-('3',
-'1',
-'200',
-'05.03.2023'),
-('1',
-'3',
-'400',
-'05.04.2023');
-
-
-
 SELECT
 	t.tdate,
 	t.acc,
